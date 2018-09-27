@@ -1,0 +1,14 @@
+.navi {
+  margin-top: 10px;
+  float: right;
+  font-size: 20px;
+  margin-right: 25px;
+  text-transform: uppercase;
+  font-family: "Carter One", cursive;
+}
+nav li {
+  padding-right: 30px;
+}
+.frm {
+  padding-block-end: 10px;
+}

@@ -1,0 +1,10 @@
+<div class="search">
+  
+Movie Title: <input [(ngModel)]="title" placeholder="name" class="form-inline my-2 my-lg-0"/>
+<button (click)="getMovie(title)" class="btn btn-primary btm-block">Search</button>
+<ul class="list-group">
+ <li  *ngFor="let movie of movies"><a routerLink="/wishlist">{{movie.Title}}</a></li>
+</ul>
+  
+</div> 
+
